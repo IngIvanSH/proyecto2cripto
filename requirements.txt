@@ -1,0 +1,6 @@
+pip>=23.1.2
+streamlit
+py-algorand-sdk
+Pillow
+pyrandom
+streamlit_option_menu
