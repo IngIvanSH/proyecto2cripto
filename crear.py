@@ -133,7 +133,7 @@ def set_crearCertificado():
                         print("Result confirmed in round: {}".format(confirmed_txn['confirmed-round']))
 
                         txn = AssetTransferTxn(
-                            sender="X5GKBQG5KHWXGRWTYITXI56EDX4SLZZNS3MMFTRFJVJWQMDDCF6JJ367TU",
+                            sender=address1,
                             sp=params,
                             receiver=cuentaUsuario,
                             amt=1,
