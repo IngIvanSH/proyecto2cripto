@@ -156,7 +156,7 @@ def set_crearCertificado():
                 print(err)
 
             st.success('Número de cuenta válido. Certificado creado')
-            
+            '''
             # Llamar a la función para generar el certificado
             generar_certificado(datosUsuario,str(created_asset))
 
@@ -165,6 +165,7 @@ def set_crearCertificado():
 
             # Cargar la imagen
             imagen_bytes = open(imagen_cert, "rb").read()
+            '''
             cadena = 'La clave asociada con el Certificado es: '+str(created_asset)
             st.warning(cadena)
             st.write('Esta clave es la que servirá para verificar tu certificado dentro de las transacciones de blockchain')
