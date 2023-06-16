@@ -51,6 +51,8 @@ def set_validarCertificado():
                 claveCert = 'Clave del certificado'
                 st.write('El promedio asociado al certificado ingresado es: ', datosUsuario[2])
                 st.write('Con la clave asociada al certificado podrás verificar su autenticidad e integridad dentro de Blockchain')
+                cadena = 'El link para consultar tu nft dentro de Algorand es el siguiente: https://testnet.algoexplorer.io/asset/'+str(asset_id)
+                st.info(cadena)            
             except:
                 print("El certificado no es válido porque no se encontró en Algorand")
         else:
