@@ -35,17 +35,17 @@ def set_crearCertificado():
                     "ID-Asset": None}
             
             #Pruebas
+            """
             mnemonic1 = "dream object fall athlete black broken equip just love express image sister useful guitar angle strong near mass beach slight hole kiss flee abstract target"
             address1 = "X5GKBQG5KHWXGRWTYITXI56EDX4SLZZNS3MMFTRFJVJWQMDDCF6JJ367TU"
-            
+            """
             cuentaUsuario = datosUsuario[7]
 
             #SOLO FINAAAAAAAAAL
-            """
+            
             mnemonic1 = 'load silk plastic orbit neither sugar grid roast cream brisk note ship salad whale trouble concert under shove empower present expose verb afford above sail'
             address1 = '7KHQ2JFNE3KPPCBBTOOTRHYBWC2JXLQKBMD3TKJNMYOV6MGVAYUGGYRDVU'
-            """
-
+            
             # Obtenemos las llaves privadas usando mnemónicos
             sk = "{}".format(mnemonic.to_private_key(mnemonic1))
             sk1 = "{}".format(mnemonic.to_private_key(datosUsuario[6]))
