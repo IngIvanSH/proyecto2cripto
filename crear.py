@@ -196,8 +196,8 @@ def generar_certificado(datosUsuario,id):
     draw = ImageDraw.Draw(certificado)
 
     # Cargar una fuente de texto
-    fuente_nombre = ImageFont.truetype("Arial.ttf", size=70)
-    fuente = ImageFont.truetype("Arial.ttf", size=40)
+    fuente_nombre = ImageFont.truetype("arial.pil", size=70)
+    fuente = ImageFont.truetype("arial.pil", size=40)
 
     # Escribir los datos en el certificado
     draw.text((620, 600),  nombre, font=fuente_nombre, fill=(0, 0, 0))
